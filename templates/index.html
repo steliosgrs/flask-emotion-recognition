@@ -1,0 +1,23 @@
+{%extends "base.html"%}
+
+{%block content%}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8  offset-lg-2">
+            <h3 class="mt-5">Live Streaming</h3>
+            <a href="video_stream">
+                <button>Test model with video stream from webcam </button>
+            </a>
+            <br><br><br>
+            <a href="/image">
+                <button>Test model by uploading a picture </button>
+            </a>
+<!--            <img src="{{ url_for('video_feed') }}" width="50%">-->
+        </div>
+    </div>
+</div>
+
+
+{%endblock%}
